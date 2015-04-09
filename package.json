@@ -25,7 +25,7 @@
     "marty-http-state-source": "^0.10.0"
   },
   "peerDependencies": {
-    "react-native": "^0.13.0"
+    "react-native": "^0.3.8"
   },
   "author": "James Hollingworth",
   "licenses": [
