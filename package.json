@@ -14,18 +14,8 @@
     "react",
     "flux"
   ],
-  "dependencies": {
-    "marty-core": "^0.10.0",
-    "marty-constants": "^0.10.0",
-    "marty-store": "^0.10.0",
-    "marty-action-creators": "^0.10.0",
-    "marty-queries": "^0.10.0",
-    "marty-state-mixin": "^0.10.0",
-    "marty-container": "^0.10.0",
-    "marty-http-state-source": "^0.10.0"
-  },
   "peerDependencies": {
-    "react-native": "^0.3.8"
+    "react-native": "^0.4.0"
   },
   "author": "James Hollingworth",
   "licenses": [
@@ -37,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/martyjs/marty-native/issues"
   },
-  "homepage": "https://martyjs.org"
+  "homepage": "https://martyjs.org",
+  "dependencies": {
+    "marty-lib": "git://github.com/martyjs/marty-lib"
+  }
 }
