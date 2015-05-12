@@ -9,6 +9,7 @@ marty.use(require('marty-lib/modules/action-creators/index'));
 marty.use(require('marty-lib/modules/queries/index'));
 marty.use(require('marty-lib/modules/state-mixin/index'));
 marty.use(require('marty-lib/modules/container/index'));
+marty.use(require('marty-lib/modules/http-state-source/index'));
 
 module.exports = marty;
 
