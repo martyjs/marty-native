@@ -8,17 +8,16 @@ marty.use(require('marty-lib/modules/store/index'));
 marty.use(require('marty-lib/modules/action-creators/index'));
 marty.use(require('marty-lib/modules/queries/index'));
 marty.use(require('marty-lib/modules/state-mixin/index'));
+marty.use(require('marty-lib/modules/app-mixin/index'));
 marty.use(require('marty-lib/modules/container/index'));
 marty.use(require('marty-lib/modules/http-state-source/index'));
 
 module.exports = marty;
 
-// Due to [NPM peer dependency issues](https://github.com/npm/npm/issues/5875)
-// we need to try resolving react from the parent if its not present locally
 function react() {
   try {
-    return require('react-native');
-  } catch (e) {
     return module.parent.require('react-native');
+  } catch (e) {
+    return require('react-native');
   }
 }
