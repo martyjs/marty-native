@@ -1,6 +1,6 @@
 {
   "name": "marty-native",
-  "version": "0.10.0",
+  "version": "0.10.3",
   "description": "A Javascript library for state management in React applications",
   "main": "marty.js",
   "directories": {
@@ -15,12 +15,13 @@
     "flux"
   ],
   "dependencies": {
-    "marty-lib": "^0.10.0"
+    "marty-lib": "^0.10.6"
   },
   "peerDependencies": {
     "react-native": "^0.4.0"
   },
   "author": "James Hollingworth",
+  "licence": "MIT",
   "licenses": [
     {
       "type": "MIT",
