@@ -15,10 +15,10 @@
     "flux"
   ],
   "dependencies": {
-    "marty-lib": "^0.10.6"
+    "marty-lib": "^0.11.0"
   },
   "peerDependencies": {
-    "react-native": "^0.4.0"
+    "react-native": ">=0.10.0"
   },
   "author": "James Hollingworth",
   "licence": "MIT",
