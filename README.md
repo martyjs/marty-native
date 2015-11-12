@@ -1,3 +1,5 @@
+### Marty is no longer actively maintained. Use [Alt](http://alt.js.org) or [Redux](https://github.com/gaearon/redux) instead. [More info](http://martyjs.org/blog/2015/08/02/marty-last.html).
+
 marty-native is a distribution of [Marty](http://martyjs.org) used with [react-native](http://facebook.github.io/react-native/).
 
 [![Join the chat at https://gitter.im/martyjs/marty](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/martyjs/marty?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
