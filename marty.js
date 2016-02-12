@@ -16,8 +16,8 @@ module.exports = marty;
 
 function react() {
   try {
-    return module.parent.require('react-native');
+    return module.parent.require('react');
   } catch (e) {
-    return require('react-native');
+    return require('react');
   }
 }
